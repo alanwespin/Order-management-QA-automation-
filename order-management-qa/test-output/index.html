@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-OrderManagementSuite" class="navigator-link">
+              <span class="suite-name border-passed">OrderManagementSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-OrderManagementSuite" class="navigator-link ">
+                    <span>C:\Users\alanw\Downloads\OMS_Selenium_TestNG_Automation_Framework\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-OrderManagementSuite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-OrderManagementSuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-OrderManagementSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-OrderManagementSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-OrderManagementSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-OrderManagementSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-OrderManagementSuite" class="hide-methods passed suite-OrderManagementSuite"> (hide)</a> <!-- hide-methods passed suite-OrderManagementSuite -->
+                      <a href="#" panel-name="suite-OrderManagementSuite" class="show-methods passed suite-OrderManagementSuite"> (show)</a> <!-- show-methods passed suite-OrderManagementSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-OrderManagementSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrderManagementSuite" title="com.ordermgmt.tests.CheckoutTest" class="method navigator-link" hash-for-method="checkoutRequiresAllFields(Alan, , 600001, missing last name)">checkoutRequiresAllFields(Alan, , 600001, missing last name)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrderManagementSuite" title="com.ordermgmt.tests.CheckoutTest" class="method navigator-link" hash-for-method="checkoutRequiresAllFields(Alan, Wespin, , missing postal code)">checkoutRequiresAllFields(Alan, Wespin, , missing postal code)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrderManagementSuite" title="com.ordermgmt.tests.CheckoutTest" class="method navigator-link" hash-for-method="checkoutRequiresAllFields(, Wespin, 600001, missing first name)">checkoutRequiresAllFields(, Wespin, 600001, missing first name)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrderManagementSuite" title="com.ordermgmt.tests.CheckoutTest" class="method navigator-link" hash-for-method="completeOrderSuccessfully">completeOrderSuccessfully</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrderManagementSuite" title="com.ordermgmt.tests.LoginTest" class="method navigator-link" hash-for-method="invalidLoginIsRejected(standard_user, , empty password (boundary))">invalidLoginIsRejected(standard_user, , empty password (boundary))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrderManagementSuite" title="com.ordermgmt.tests.LoginTest" class="method navigator-link" hash-for-method="invalidLoginIsRejected(standard_user, wrong_pass, invalid password)">invalidLoginIsRejected(standard_user, wrong_pass, invalid password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrderManagementSuite" title="com.ordermgmt.tests.LoginTest" class="method navigator-link" hash-for-method="invalidLoginIsRejected(, secret_sauce, empty username (boundary))">invalidLoginIsRejected(, secret_sauce, empty username (boundary))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrderManagementSuite" title="com.ordermgmt.tests.LoginTest" class="method navigator-link" hash-for-method="invalidLoginIsRejected(wrong_user, secret_sauce, invalid username)">invalidLoginIsRejected(wrong_user, secret_sauce, invalid username)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrderManagementSuite" title="com.ordermgmt.tests.LoginTest" class="method navigator-link" hash-for-method="lockedOutUserIsBlocked">lockedOutUserIsBlocked</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrderManagementSuite" title="com.ordermgmt.tests.LoginTest" class="method navigator-link" hash-for-method="validLoginSucceeds">validLoginSucceeds</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-OrderManagementSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-OrderManagementSuite" class="panel OrderManagementSuite">
+          <div class="suite-OrderManagementSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ordermgmt.tests.CheckoutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkoutRequiresAllFields(Alan, , 600001, missing last name)">
+                  </a> <!-- checkoutRequiresAllFields(Alan, , 600001, missing last name) -->
+                  <span class="method-name">checkoutRequiresAllFields</span>
+                  <span class="parameters">(Alan,,600001,missing last name)</span>
+                  <em>
+(TC_CHECKOUT_04/05/06 - Required-field boundary validation at checkout)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkoutRequiresAllFields(Alan, Wespin, , missing postal code)">
+                  </a> <!-- checkoutRequiresAllFields(Alan, Wespin, , missing postal code) -->
+                  <span class="method-name">checkoutRequiresAllFields</span>
+                  <span class="parameters">(Alan,Wespin,,missing postal code)</span>
+                  <em>
+(TC_CHECKOUT_04/05/06 - Required-field boundary validation at checkout)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkoutRequiresAllFields(, Wespin, 600001, missing first name)">
+                  </a> <!-- checkoutRequiresAllFields(, Wespin, 600001, missing first name) -->
+                  <span class="method-name">checkoutRequiresAllFields</span>
+                  <span class="parameters">(,Wespin,600001,missing first name)</span>
+                  <em>
+(TC_CHECKOUT_04/05/06 - Required-field boundary validation at checkout)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="completeOrderSuccessfully">
+                  </a> <!-- completeOrderSuccessfully -->
+                  <span class="method-name">completeOrderSuccessfully</span>
+                  <em>
+(TC_CHECKOUT_01 - Full happy-path order placement)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OrderManagementSuite-class-passed -->
+          <div class="suite-OrderManagementSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ordermgmt.tests.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidLoginIsRejected(standard_user, , empty password (boundary))">
+                  </a> <!-- invalidLoginIsRejected(standard_user, , empty password (boundary)) -->
+                  <span class="method-name">invalidLoginIsRejected</span>
+                  <span class="parameters">(standard_user,,empty password (boundary))</span>
+                  <em>
+(TC_LOGIN_02/03/05/06 - Negative and boundary login cases)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidLoginIsRejected(standard_user, wrong_pass, invalid password)">
+                  </a> <!-- invalidLoginIsRejected(standard_user, wrong_pass, invalid password) -->
+                  <span class="method-name">invalidLoginIsRejected</span>
+                  <span class="parameters">(standard_user,wrong_pass,invalid password)</span>
+                  <em>
+(TC_LOGIN_02/03/05/06 - Negative and boundary login cases)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidLoginIsRejected(, secret_sauce, empty username (boundary))">
+                  </a> <!-- invalidLoginIsRejected(, secret_sauce, empty username (boundary)) -->
+                  <span class="method-name">invalidLoginIsRejected</span>
+                  <span class="parameters">(,secret_sauce,empty username (boundary))</span>
+                  <em>
+(TC_LOGIN_02/03/05/06 - Negative and boundary login cases)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidLoginIsRejected(wrong_user, secret_sauce, invalid username)">
+                  </a> <!-- invalidLoginIsRejected(wrong_user, secret_sauce, invalid username) -->
+                  <span class="method-name">invalidLoginIsRejected</span>
+                  <span class="parameters">(wrong_user,secret_sauce,invalid username)</span>
+                  <em>
+(TC_LOGIN_02/03/05/06 - Negative and boundary login cases)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="lockedOutUserIsBlocked">
+                  </a> <!-- lockedOutUserIsBlocked -->
+                  <span class="method-name">lockedOutUserIsBlocked</span>
+                  <em>
+(TC_LOGIN_04 - Locked-out user is blocked with a clear error)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validLoginSucceeds">
+                  </a> <!-- validLoginSucceeds -->
+                  <span class="method-name">validLoginSucceeds</span>
+                  <em>
+(TC_LOGIN_01 - Valid login lands on inventory page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OrderManagementSuite-class-passed -->
+        </div> <!-- panel OrderManagementSuite -->
+        <div panel-name="test-xml-OrderManagementSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\alanw\Downloads\OMS_Selenium_TestNG_Automation_Framework\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;OrderManagementSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;RegressionSuite&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.ordermgmt.tests.LoginTest&quot;/&gt;
+      &lt;class name=&quot;com.ordermgmt.tests.CheckoutTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- RegressionSuite --&gt;
+&lt;/suite&gt; &lt;!-- OrderManagementSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-OrderManagementSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for OrderManagementSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">RegressionSuite (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-OrderManagementSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for OrderManagementSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-OrderManagementSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for OrderManagementSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_OrderManagementSuite');
+function tableData_OrderManagementSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'completeOrderSuccessfully')
+data.setCell(0, 2, 'com.ordermgmt.tests.CheckoutTest')
+data.setCell(0, 3, 1309);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'checkoutRequiresAllFields')
+data.setCell(1, 2, 'com.ordermgmt.tests.CheckoutTest')
+data.setCell(1, 3, 1043);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'checkoutRequiresAllFields')
+data.setCell(2, 2, 'com.ordermgmt.tests.CheckoutTest')
+data.setCell(2, 3, 1031);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'checkoutRequiresAllFields')
+data.setCell(3, 2, 'com.ordermgmt.tests.CheckoutTest')
+data.setCell(3, 3, 1010);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'validLoginSucceeds')
+data.setCell(4, 2, 'com.ordermgmt.tests.LoginTest')
+data.setCell(4, 3, 656);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'lockedOutUserIsBlocked')
+data.setCell(5, 2, 'com.ordermgmt.tests.LoginTest')
+data.setCell(5, 3, 623);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'invalidLoginIsRejected')
+data.setCell(6, 2, 'com.ordermgmt.tests.LoginTest')
+data.setCell(6, 3, 596);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'invalidLoginIsRejected')
+data.setCell(7, 2, 'com.ordermgmt.tests.LoginTest')
+data.setCell(7, 3, 596);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'invalidLoginIsRejected')
+data.setCell(8, 2, 'com.ordermgmt.tests.LoginTest')
+data.setCell(8, 3, 568);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'invalidLoginIsRejected')
+data.setCell(9, 2, 'com.ordermgmt.tests.LoginTest')
+data.setCell(9, 3, 566);
+window.suiteTableData['OrderManagementSuite']= { tableData: data, tableDiv: 'times-div-OrderManagementSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 7 seconds</span>
+              <div id="times-div-OrderManagementSuite">
+              </div> <!-- times-div-OrderManagementSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-OrderManagementSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for OrderManagementSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-OrderManagementSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-OrderManagementSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ordermgmt.tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validLoginSucceeds</span>
+                <span class="method-start">7053 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">7714 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">8016 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">lockedOutUserIsBlocked</span>
+                <span class="method-start">10721 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">11346 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">11637 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidLoginIsRejected(wrong_user, secret_sauce, invalid username)</span>
+                <span class="method-start">13784 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">14383 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">14642 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidLoginIsRejected(standard_user, wrong_pass, invalid password)</span>
+                <span class="method-start">17280 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17879 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">18199 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidLoginIsRejected(, secret_sauce, empty username (boundary))</span>
+                <span class="method-start">20525 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">21092 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">21351 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidLoginIsRejected(standard_user, , empty password (boundary))</span>
+                <span class="method-start">23825 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">24395 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ordermgmt.tests.CheckoutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">24671 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">completeOrderSuccessfully</span>
+                <span class="method-start">27524 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">28835 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">29096 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkoutRequiresAllFields(, Wespin, 600001, missing first name)</span>
+                <span class="method-start">32036 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">33081 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">33355 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkoutRequiresAllFields(Alan, , 600001, missing last name)</span>
+                <span class="method-start">35990 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">37023 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">37293 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkoutRequiresAllFields(Alan, Wespin, , missing postal code)</span>
+                <span class="method-start">40311 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">41322 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

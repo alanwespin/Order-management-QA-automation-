@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-09-25T19:19:26 IST" name="OrderManagementSuite" finished-at="2026-09-25T19:20:08 IST" duration-ms="41649">
+    <groups>
+    </groups>
+    <test started-at="2026-09-25T19:19:26 IST" name="RegressionSuite" finished-at="2026-09-25T19:20:08 IST" duration-ms="41649">
+      <class name="com.ordermgmt.tests.CheckoutTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ordermgmt.tests.CheckoutTest@77c2494c]" started-at="2026-09-25T19:19:51 IST" name="setUp" finished-at="2026-09-25T19:19:54 IST" duration-ms="2852" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="completeOrderSuccessfully()[pri:1, instance:com.ordermgmt.tests.CheckoutTest@77c2494c]" started-at="2026-09-25T19:19:54 IST" name="completeOrderSuccessfully" description="TC_CHECKOUT_01 - Full happy-path order placement" finished-at="2026-09-25T19:19:55 IST" duration-ms="1309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeOrderSuccessfully -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ordermgmt.tests.CheckoutTest@77c2494c]" started-at="2026-09-25T19:19:55 IST" name="tearDown" finished-at="2026-09-25T19:19:55 IST" duration-ms="258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ordermgmt.tests.CheckoutTest@77c2494c]" started-at="2026-09-25T19:19:55 IST" name="setUp" finished-at="2026-09-25T19:19:58 IST" duration-ms="2940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkoutRequiresAllFields(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.ordermgmt.tests.CheckoutTest@77c2494c]" started-at="2026-09-25T19:19:58 IST" name="checkoutRequiresAllFields" description="TC_CHECKOUT_04/05/06 - Required-field boundary validation at checkout" data-provider="checkoutBoundaryCases" finished-at="2026-09-25T19:19:59 IST" duration-ms="1043" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Wespin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[600001]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[missing first name]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutRequiresAllFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ordermgmt.tests.CheckoutTest@77c2494c]" started-at="2026-09-25T19:19:59 IST" name="tearDown" finished-at="2026-09-25T19:20:00 IST" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ordermgmt.tests.CheckoutTest@77c2494c]" started-at="2026-09-25T19:20:00 IST" name="setUp" finished-at="2026-09-25T19:20:02 IST" duration-ms="2635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkoutRequiresAllFields(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.ordermgmt.tests.CheckoutTest@77c2494c]" started-at="2026-09-25T19:20:02 IST" name="checkoutRequiresAllFields" description="TC_CHECKOUT_04/05/06 - Required-field boundary validation at checkout" data-provider="checkoutBoundaryCases" finished-at="2026-09-25T19:20:03 IST" duration-ms="1031" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[600001]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[missing last name]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutRequiresAllFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ordermgmt.tests.CheckoutTest@77c2494c]" started-at="2026-09-25T19:20:03 IST" name="tearDown" finished-at="2026-09-25T19:20:04 IST" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ordermgmt.tests.CheckoutTest@77c2494c]" started-at="2026-09-25T19:20:04 IST" name="setUp" finished-at="2026-09-25T19:20:07 IST" duration-ms="3018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkoutRequiresAllFields(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.ordermgmt.tests.CheckoutTest@77c2494c]" started-at="2026-09-25T19:20:07 IST" name="checkoutRequiresAllFields" description="TC_CHECKOUT_04/05/06 - Required-field boundary validation at checkout" data-provider="checkoutBoundaryCases" finished-at="2026-09-25T19:20:08 IST" duration-ms="1010" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Wespin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[missing postal code]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutRequiresAllFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ordermgmt.tests.CheckoutTest@77c2494c]" started-at="2026-09-25T19:20:08 IST" name="tearDown" finished-at="2026-09-25T19:20:08 IST" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ordermgmt.tests.CheckoutTest -->
+      <class name="com.ordermgmt.tests.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ordermgmt.tests.LoginTest@618b19ad]" started-at="2026-09-25T19:19:26 IST" name="setUp" finished-at="2026-09-25T19:19:33 IST" duration-ms="7052" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validLoginSucceeds()[pri:1, instance:com.ordermgmt.tests.LoginTest@618b19ad]" started-at="2026-09-25T19:19:33 IST" name="validLoginSucceeds" description="TC_LOGIN_01 - Valid login lands on inventory page" finished-at="2026-09-25T19:19:34 IST" duration-ms="656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginSucceeds -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ordermgmt.tests.LoginTest@618b19ad]" started-at="2026-09-25T19:19:34 IST" name="tearDown" finished-at="2026-09-25T19:19:34 IST" duration-ms="298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ordermgmt.tests.LoginTest@618b19ad]" started-at="2026-09-25T19:19:34 IST" name="setUp" finished-at="2026-09-25T19:19:37 IST" duration-ms="2703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="lockedOutUserIsBlocked()[pri:2, instance:com.ordermgmt.tests.LoginTest@618b19ad]" started-at="2026-09-25T19:19:37 IST" name="lockedOutUserIsBlocked" description="TC_LOGIN_04 - Locked-out user is blocked with a clear error" finished-at="2026-09-25T19:19:38 IST" duration-ms="623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lockedOutUserIsBlocked -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ordermgmt.tests.LoginTest@618b19ad]" started-at="2026-09-25T19:19:38 IST" name="tearDown" finished-at="2026-09-25T19:19:38 IST" duration-ms="286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ordermgmt.tests.LoginTest@618b19ad]" started-at="2026-09-25T19:19:38 IST" name="setUp" finished-at="2026-09-25T19:19:40 IST" duration-ms="2147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidLoginIsRejected(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.ordermgmt.tests.LoginTest@618b19ad]" started-at="2026-09-25T19:19:40 IST" name="invalidLoginIsRejected" description="TC_LOGIN_02/03/05/06 - Negative and boundary login cases" data-provider="invalidCredentials" finished-at="2026-09-25T19:19:41 IST" duration-ms="596" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wrong_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalid username]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginIsRejected -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ordermgmt.tests.LoginTest@618b19ad]" started-at="2026-09-25T19:19:41 IST" name="tearDown" finished-at="2026-09-25T19:19:41 IST" duration-ms="258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ordermgmt.tests.LoginTest@618b19ad]" started-at="2026-09-25T19:19:41 IST" name="setUp" finished-at="2026-09-25T19:19:44 IST" duration-ms="2638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidLoginIsRejected(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.ordermgmt.tests.LoginTest@618b19ad]" started-at="2026-09-25T19:19:44 IST" name="invalidLoginIsRejected" description="TC_LOGIN_02/03/05/06 - Negative and boundary login cases" data-provider="invalidCredentials" finished-at="2026-09-25T19:19:44 IST" duration-ms="596" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrong_pass]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalid password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginIsRejected -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ordermgmt.tests.LoginTest@618b19ad]" started-at="2026-09-25T19:19:44 IST" name="tearDown" finished-at="2026-09-25T19:19:44 IST" duration-ms="319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ordermgmt.tests.LoginTest@618b19ad]" started-at="2026-09-25T19:19:44 IST" name="setUp" finished-at="2026-09-25T19:19:47 IST" duration-ms="2326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidLoginIsRejected(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.ordermgmt.tests.LoginTest@618b19ad]" started-at="2026-09-25T19:19:47 IST" name="invalidLoginIsRejected" description="TC_LOGIN_02/03/05/06 - Negative and boundary login cases" data-provider="invalidCredentials" finished-at="2026-09-25T19:19:47 IST" duration-ms="566" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[empty username (boundary)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginIsRejected -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ordermgmt.tests.LoginTest@618b19ad]" started-at="2026-09-25T19:19:47 IST" name="tearDown" finished-at="2026-09-25T19:19:48 IST" duration-ms="258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ordermgmt.tests.LoginTest@618b19ad]" started-at="2026-09-25T19:19:48 IST" name="setUp" finished-at="2026-09-25T19:19:50 IST" duration-ms="2473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidLoginIsRejected(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.ordermgmt.tests.LoginTest@618b19ad]" started-at="2026-09-25T19:19:50 IST" name="invalidLoginIsRejected" description="TC_LOGIN_02/03/05/06 - Negative and boundary login cases" data-provider="invalidCredentials" finished-at="2026-09-25T19:19:51 IST" duration-ms="568" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[empty password (boundary)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginIsRejected -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ordermgmt.tests.LoginTest@618b19ad]" started-at="2026-09-25T19:19:51 IST" name="tearDown" finished-at="2026-09-25T19:19:51 IST" duration-ms="274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ordermgmt.tests.LoginTest -->
+    </test> <!-- RegressionSuite -->
+  </suite> <!-- OrderManagementSuite -->
+</testng-results>
