@@ -29,6 +29,7 @@ public class CartPage extends BasePage {
 
     public CheckoutInfoPage proceedToCheckout() {
         click(checkoutButton);
+        wait.until(org.openqa.selenium.support.ui.ExpectedConditions.urlContains("checkout-step-one"));
         return new CheckoutInfoPage(driver);
     }
 }
