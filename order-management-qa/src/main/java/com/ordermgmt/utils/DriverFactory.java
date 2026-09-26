@@ -20,6 +20,7 @@ public class DriverFactory {
             options.addArguments("--disable-dev-shm-usage");
         }
         options.addArguments("--window-size=1400,900");
+        options.addArguments("--disable-gpu");
         return new ChromeDriver(options);
     }
 }
