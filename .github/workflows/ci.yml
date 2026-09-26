@@ -25,6 +25,7 @@ jobs:
         uses: browser-actions/setup-chrome@v1
 
       - name: Run TestNG regression suite
+        working-directory: order-management-qa
         run: mvn -B clean test
 
       - name: Publish test report
